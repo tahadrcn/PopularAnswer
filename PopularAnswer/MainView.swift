@@ -18,7 +18,7 @@ struct MainView: View {
             VStack{
                 
                 }
-            .navigationTitle("POPÜLER CEVAPLAR")
+            .navigationTitle("Popular Answers")
             
             
             
