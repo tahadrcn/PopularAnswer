@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4E6D742B814ACB007A0A96 /* ChooseView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E6D732B814ACB007A0A96 /* ChooseView.swift.swift */; };
 		1D8676742B6D78D500D5A0C1 /* PopularAnswerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8676732B6D78D500D5A0C1 /* PopularAnswerApp.swift */; };
 		1D8676762B6D78D500D5A0C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8676752B6D78D500D5A0C1 /* MainView.swift */; };
 		1D8676782B6D78D600D5A0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8676772B6D78D600D5A0C1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4E6D732B814ACB007A0A96 /* ChooseView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift.swift; sourceTree = "<group>"; };
 		1D8676702B6D78D500D5A0C1 /* PopularAnswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularAnswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8676732B6D78D500D5A0C1 /* PopularAnswerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularAnswerApp.swift; sourceTree = "<group>"; };
 		1D8676752B6D78D500D5A0C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				1D8676732B6D78D500D5A0C1 /* PopularAnswerApp.swift */,
 				1D8676752B6D78D500D5A0C1 /* MainView.swift */,
+				1D4E6D732B814ACB007A0A96 /* ChooseView.swift.swift */,
 				1D8676772B6D78D600D5A0C1 /* Assets.xcassets */,
 				1D8676792B6D78D600D5A0C1 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4E6D742B814ACB007A0A96 /* ChooseView.swift.swift in Sources */,
 				1D8676762B6D78D500D5A0C1 /* MainView.swift in Sources */,
 				1D8676742B6D78D500D5A0C1 /* PopularAnswerApp.swift in Sources */,
 			);
