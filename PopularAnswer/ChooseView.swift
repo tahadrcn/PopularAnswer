@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChooseView: View {
+    @State private var showToast = false
     var screenheight = UIScreen.main.bounds.height
     var screenwidth = UIScreen.main.bounds.width
     @State var word:String = ""
@@ -53,13 +54,20 @@ struct ChooseView: View {
                         point += 50
                         word = ""
                     }
-                })
+                    else{
+                        showToast = true
+                        word = ""
+                    }
+                    })
                     .font(.title2)
                     .frame(width: screenwidth,height: screenheight*0.05)
                     .foregroundColor(.indigo)
                     .background(Color.white.opacity(0.8))
                     .padding()
-                Spacer().frame(height: screenheight*0.1)
+               
+                
+                ToastView(text: "Popular answers not include your's", isShowing: $showToast)
+                    .padding()
 
             }
         }
